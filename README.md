@@ -1,5 +1,10 @@
 # Energy Measurement System for Data Lakes: An Initial Approach
 
+## Paper Abstract
+Data Lakes are increasingly deployed as a solution for Big Data analytics. Recent improvements in Data Lake technology have focused on improving data access, governance, and discoverability. However, the energy consumption of data operations, a non-trivial issue for eco-conscious organizations, is currently overlooked. Furthermore, existing monitoring tools do not adequately address the complexities of Data Lake architectures.
+
+This paper presents the initial phase of developing a system for measuring energy in Data Lake pipeline operations. The novelty of our solution lies in the fact that we define four measures to assess the power usage of crucial hardware components in a Data Lake context: CPU, RAM, NIC, and storage devices. To validate our approach, we developed a monitoring tool grounded in real-world datasets from a Data Lake benchmark.
+
 ## Description
 We created an energy measuring system for Data Lakes, which considers all OS processes a Data Lake instance triggers. We evaluated our system using an already validated benchmark: DLBench+. This repository contains 1) The paper pdf file, 2) The raw data files of the experiments' results, and 3) the benchmarking results of PowerJoular and Scaphandre in the server where the experiments were conducted.
 
