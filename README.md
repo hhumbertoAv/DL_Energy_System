@@ -1,26 +1,24 @@
 # Energy Measurement System for Data Lakes: An Initial Approach
 
-## Paper Abstract
-Data Lakes are increasingly deployed as a solution for Big Data analytics. Recent improvements in Data Lake technology have focused on improving data access, governance, and discoverability. However, the energy consumption of data operations, a non-trivial issue for eco-conscious organizations, is currently overlooked. Furthermore, existing monitoring tools do not adequately address the complexities of Data Lake architectures.
-
-This paper presents the initial phase of developing a system for measuring energy in Data Lake pipeline operations. The novelty of our solution lies in the fact that we define four measures to assess the power usage of crucial hardware components in a Data Lake context: CPU, RAM, NIC, and storage devices. To validate our approach, we developed a monitoring tool grounded in real-world datasets from a Data Lake benchmark.
 
 ## Description
-We created an energy measuring system for Data Lakes, which considers all OS processes a Data Lake instance triggers. We evaluated our system using an already validated benchmark: DLBench+. This repository contains 1) The paper pdf file, 2) The raw data files of the experiments' results, and 3) the benchmarking results of PowerJoular and Scaphandre in the server where the experiments were conducted.
+We have developed an energy measurement system for Data Lakes, designed to monitor and evaluate each OS process triggered by a Data Lake instance. This comprehensive system assesses each process in terms of its CPU, RAM, storage device, and NIC energy consumption. The effectiveness of our approach was verified through the execution of an already validated benchmark for Data Lakes evaluation: DLBench+[^1].
 
-## Content
-1. **The Article PDF**: Find the full research paper here. This includes all the methodologies, findings, discussions, and conclusions drawn from the study.
+The paper describing the theoretical and technical context of our system was presented at the ACIIDS 2024 conference: https://aciids.pwr.edu.pl/2024/
+
+## Repository Content
+
+This repository serves as a supplementary resource for our submitted paper and includes the following:
+
+1. **The results' values of the experiments**:  Contains raw energy measurement data along with the file summarizing average results.
 
 2. **Benchmarking Experiments of**:
-    - **PowerJoular[^1]**: A command line software to monitor, in real-time, the power consumption of software and hardware components.
-    - **Scaphandre[^2]**: A metrology agent dedicated to electrical power consumption metrics.
- 
-3. **Raw Data of the Experiments**:
-    - The raw data collected during our experiments is available for further analysis and verification. We provide detailed information on the dataset, including how it was gathered, any preprocessing done, and its structure.
+    - **PowerJoular[^2]**: A command line software to monitor, in real-time, the power consumption of software and hardware components.
+    - **Scaphandre[^3]**: A metrology agent dedicated to electrical power consumption metrics.
 
 ## Citing
-Will be uploaded upon paper acceptance.
+Details for citing this work will be provided upon paper acceptance.
 
-[^1]: https://github.com/joular/powerjoular
-[^2]: https://github.com/hubblo-org/scaphandre
-
+[^1]Pegdwendé N. Sawadogo and Jérôme Darmont. 2023. DLBench+: A benchmark for quantitative and qualitative data lake assessment. Data Knowl. Eng. 145, C (May 2023). https://doi.org/10.1016/j.datak.2023.102154
+[^2]: https://github.com/joular/powerjoular
+[^3]: https://github.com/hubblo-org/scaphandre
