@@ -16,6 +16,8 @@ This repository serves as a supplementary resource for our submitted paper and i
     - **PowerJoular[^2]**: A command line software to monitor, in real-time, the power consumption of software and hardware components.
     - **Scaphandre[^3]**: A metrology agent dedicated to electrical power consumption metrics.
 
+The system's code and documentation will be uploaded once we determine the appropriate license type for its use.
+
 ## Citing
 Details for citing this work will be provided upon paper acceptance.
 
