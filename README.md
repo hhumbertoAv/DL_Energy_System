@@ -19,6 +19,6 @@ This repository serves as a supplementary resource for our submitted paper and i
 ## Citing
 Details for citing this work will be provided upon paper acceptance.
 
-[^1]Pegdwendé N. Sawadogo and Jérôme Darmont. 2023. DLBench+: A benchmark for quantitative and qualitative data lake assessment. Data Knowl. Eng. 145, C (May 2023). https://doi.org/10.1016/j.datak.2023.102154
+[^1]: https://doi.org/10.1016/j.datak.2023.102154
 [^2]: https://github.com/joular/powerjoular
 [^3]: https://github.com/hubblo-org/scaphandre
