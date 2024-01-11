@@ -10,12 +10,14 @@ The paper describing the theoretical and technical context of our system was pre
 
 This repository serves as a supplementary resource for our submitted paper and includes the following:
 
-1. **The results' values of the experiments**:  Contains raw energy measurement data along with the file summarizing average results.
+1. **Experiment Results from the Paper:**  Includes raw energy measurement data and a file with summarized average results.
 
 2. **Benchmarking Experiments of**:
     - **PowerJoular[^2]**: A command line software to monitor, in real-time, the power consumption of software and hardware components.
     - **Scaphandre[^3]**: A metrology agent dedicated to electrical power consumption metrics.
 
+2. **Our system's code**:
+   
 The system's code and documentation will be uploaded once we determine the appropriate license type for its use.
 
 ## Citing
