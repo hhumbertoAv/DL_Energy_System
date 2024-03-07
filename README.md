@@ -18,7 +18,7 @@ This repository serves as a supplementary resource for our submitted paper and i
 
 2. **Our system's code**:
    
-The system's code and documentation will be uploaded once we determine the appropriate license type for its use.
+https://github.com/hhumbertoAv/FLOC
 
 ## Citing
 Details for citing this work will be provided upon paper acceptance.
